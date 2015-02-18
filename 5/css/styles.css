@@ -1,0 +1,4 @@
+/* Highlight Class */
+.ui.cards>.card.highlight {
+	box-shadow: 0 0 40px #FFF200;
+}

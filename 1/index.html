@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>1. Semantic UI</title>
+
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+  
+  <!-- Apply Semantic UI: 
+    * Grids: http://semantic-ui.com/collections/grid.html
+    * Card: http://semantic-ui.com/views/card.html
+      - Image for Card: http://semantic-ui.com/images/avatar/large/stevie.jpg
+    * Tab: http://semantic-ui.com/modules/tab.html#/examples
+    * Vertical Rectangle Ad: http://semantic-ui.com/views/advertisement.html
+  -->
+  <div class="ui three column page grid">
+      
+      <!-- Card -->
+      <div class="column">
+        <h2>Column 1</h2>
+        <div class="ui card">
+          <div class="image">
+            <img src="http://semantic-ui.com/images/avatar/large/stevie.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Stevie Feliciano</a>
+            <div class="meta">
+              <span class="date">Joined in 2014</span>
+            </div>
+            <div class="description">
+              Stevie Feliciano is a library scientist living in New York City. She likes to spend her time reading, running, and writing.
+            </div>
+          </div>
+          <div class="extra content">
+            <a>
+              <i class="user icon"></i>
+              22 Friends
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tabs -->
+      <div class="column">
+        <h2>Column 2</h2>
+        <div class="ui top attached tabular menu">
+            <a class="active item" data-tab="first">First</a>
+            <a class="item" data-tab="second">Second</a>
+            <a class="item" data-tab="third">Third</a>
+          </div>
+        <div class="ui bottom attached active tab segment" data-tab="first">
+            First
+          </div>
+        <div class="ui bottom attached tab segment" data-tab="second">
+            Second
+          </div>
+        <div class="ui bottom attached tab segment" data-tab="third">
+            Third
+          </div>
+      </div>
+
+      <!-- Vertical Rectangle Ad -->
+      <div class="column">
+        <h2>Advertisements</h2>
+        <div class="ui vertical rectangle test ad" data-text="Vertical Rectangle"></div>
+      </div>
+
+  </div>
+
+  
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="js/semantic.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>

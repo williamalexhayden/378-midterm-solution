@@ -1,0 +1,19 @@
+/* Day Mode Styling */
+.day {
+  background: rgb(247, 247, 247);
+  color: #333;
+}
+
+.day .ui.menu .item {
+	color: #333;
+}
+
+/* Night Mode Styling */
+.night {
+  background: #333;
+  color: rgb(247, 247, 247);
+}
+
+.ui.menu .item {
+	color: #fff;
+}
